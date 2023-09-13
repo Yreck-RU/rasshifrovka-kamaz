@@ -140,6 +140,23 @@
     .article-header-inner {
       margin-bottom: 1.5rem; } }
 
+.info-star-inner .star-item-inner:before {
+  content: "\e9d7";
+  font-family: 'icomoon-two' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.2rem;
+  margin-right: 3.2px; }
+
+.info-star-inner .star-item-inner.active:before {
+  content: "\e9d9"; }
+
 .content-article-inner {
   display: block; }
   .content-article-inner .article-description-inner {
